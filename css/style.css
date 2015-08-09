@@ -1,0 +1,122 @@
+body {
+		background-color: white;
+		background-image: url(../images/bg1.jpg);
+		background-repeat: repeat;
+		background-attachment: fixed;
+		font-family: Helvetica, Calibri, arial;
+}
+
+/*this is how you comment*/
+
+.main {
+	background-color: rgba(255,235,205,0.8);
+	/*blanchedalmond;*/
+	border-radius: 20px;
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	text-shadow: 0px 4px turquoise;
+	background: mediumspringgreen;
+	border-radius: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h2 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: none;
+	background: plum;
+	letter-spacing: 6px;
+	border-radius: 30px
+}
+h3 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: none;
+}
+
+h3 {
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+#image1 {width: 450px;
+		padding: 15px;
+		border: 7px dotted salmon;
+		border-radius: 50px;
+		position: center;
+		display: block;
+		margin: 0 auto;
+}
+
+#image2 {position: center;
+		position: center;
+		display: block;
+		margin: 0 auto;
+		border: 7px dotted dodgerblue;
+		padding: 10px;}
+
+
+#image3 {position: center;
+		position: center;
+		display: block;
+		margin: 0 auto;
+		border: 7px dotted salmon;
+		padding: 10px;
+		width: 500px
+		;}
+
+#image4 {position: center;
+		position: center;
+		display: block;
+		margin: 0 auto;
+		border: 7px dotted aqua;
+		padding: 10px;
+		width: 550px;}
+
+
+img{
+		width: 450px;
+		position: center;
+		display: block;
+		
+}
+
+p,
+ol,
+ul {
+	line-height: 2;
+	list-style: none;
+	text-align: center;
+}
+
+a {
+	font-weight: bold;
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+a:hover {
+		text-decoration: underline;
+		color: slategrey;
+}
+ul li {
+		display: inline-block;
+		border-left: 2px solid black;
+		padding-left: 5px;
+		margin-left: 3px;
+}
+
+ul li:first-child {
+		margin-left: 0;
+		padding-left: 0;
+		border-left: none;
+}
+
+
